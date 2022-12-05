@@ -1,0 +1,272 @@
+/home/arivera/stocknet/git/stocknet-transformer/src/ConfigLoader.py:31: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  config = yaml.load(file(config_fp, 'r'))
+2022-12-03 23:47:34,735 INFO INIT: #stock: 88, #vocab+1: 29867
+2022-12-03 23:47:34,739 INFO Start graph assembling...
+2022-12-03 23:47:39.358668: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2022-12-03 23:48:03,667 INFO ASSEMBLE: word table #replacement: 19485
+2022-12-03 23:48:04,090 INFO Word table init: done!
+2022-12-03 23:48:04,092 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, start a new session!
+2022-12-03 23:48:04,092 INFO Epoch: 1/15 start
+2022-12-03 23:56:35,448 INFO 	iter: 20, batch loss: 7.03262710571, batch acc: 0.437500
+2022-12-03 23:59:14,510 INFO 	Eval, eval loss: 7.04041433334, acc: 0.512195
+2022-12-04 00:06:02,942 INFO 	iter: 40, batch loss: 6.04931163788, batch acc: 0.375000
+2022-12-04 00:08:41,941 INFO 	Eval, eval loss: 5.72326993942, acc: 0.512195
+2022-12-04 00:15:18,017 INFO 	iter: 60, batch loss: 4.15930271149, batch acc: 0.500000
+2022-12-04 00:17:58,044 INFO 	Eval, eval loss: 4.06038713455, acc: 0.512195
+2022-12-04 00:24:26,691 INFO 	iter: 80, batch loss: 3.10575675964, batch acc: 0.562500
+2022-12-04 00:27:07,933 INFO 	Eval, eval loss: 3.03534507751, acc: 0.512195
+2022-12-04 00:33:38,844 INFO 	iter: 100, batch loss: 2.52483510971, batch acc: 0.437500
+2022-12-04 00:36:20,224 INFO 	Eval, eval loss: 2.26473259926, acc: 0.512195
+2022-12-04 00:42:43,868 INFO 	iter: 120, batch loss: 2.29203391075, batch acc: 0.312500
+2022-12-04 00:45:26,629 INFO 	Eval, eval loss: 2.0890185833, acc: 0.512195
+2022-12-04 00:51:45,682 INFO 	iter: 140, batch loss: 2.11732268333, batch acc: 0.406250
+2022-12-04 00:54:28,060 INFO 	Eval, eval loss: 1.979585886, acc: 0.512195
+2022-12-04 00:59:13,807 INFO Epoch: loss: 3.778165, acc: 0.481855
+2022-12-04 00:59:13,808 INFO Epoch: 2/15 start
+2022-12-04 01:01:47,292 INFO 	iter: 160, batch loss: 2.02628326416, batch acc: 0.406250
+2022-12-04 01:04:31,345 INFO 	Eval, eval loss: 1.96201407909, acc: 0.512195
+2022-12-04 01:12:08,381 INFO 	iter: 180, batch loss: 2.01187205315, batch acc: 0.375000
+2022-12-04 01:14:54,126 INFO 	Eval, eval loss: 1.8302873373, acc: 0.512195
+2022-12-04 01:21:39,971 INFO 	iter: 200, batch loss: 1.82553720474, batch acc: 0.625000
+2022-12-04 01:24:26,198 INFO 	Eval, eval loss: 1.79770553112, acc: 0.512195
+2022-12-04 01:31:02,240 INFO 	iter: 220, batch loss: 1.71473157406, batch acc: 0.468750
+2022-12-04 01:33:49,421 INFO 	Eval, eval loss: 1.62020504475, acc: 0.512195
+2022-12-04 01:40:22,622 INFO 	iter: 240, batch loss: 1.55461537838, batch acc: 0.562500
+2022-12-04 01:43:10,903 INFO 	Eval, eval loss: 1.49131643772, acc: 0.512195
+2022-12-04 01:49:40,043 INFO 	iter: 260, batch loss: 1.48553013802, batch acc: 0.531250
+2022-12-04 01:52:28,778 INFO 	Eval, eval loss: 1.34453642368, acc: 0.512195
+2022-12-04 01:58:55,377 INFO 	iter: 280, batch loss: 1.29609692097, batch acc: 0.437500
+2022-12-04 02:01:44,429 INFO 	Eval, eval loss: 1.29044544697, acc: 0.512195
+2022-12-04 02:08:10,480 INFO 	iter: 300, batch loss: 1.37847387791, batch acc: 0.312500
+2022-12-04 02:11:00,909 INFO 	Eval, eval loss: 1.21786141396, acc: 0.512195
+2022-12-04 02:14:12,790 INFO Epoch: loss: 1.612628, acc: 0.482056
+2022-12-04 02:14:12,791 INFO Epoch: 3/15 start
+2022-12-04 02:18:52,016 INFO 	iter: 320, batch loss: 1.13338470459, batch acc: 0.406250
+2022-12-04 02:21:44,302 INFO 	Eval, eval loss: 1.13317847252, acc: 0.512195
+2022-12-04 02:28:55,852 INFO 	iter: 340, batch loss: 1.12333369255, batch acc: 0.531250
+2022-12-04 02:31:48,160 INFO 	Eval, eval loss: 1.07242298126, acc: 0.512195
+2022-12-04 02:38:39,618 INFO 	iter: 360, batch loss: 1.06592535973, batch acc: 0.625000
+2022-12-04 02:41:32,491 INFO 	Eval, eval loss: 1.04115629196, acc: 0.512195
+2022-12-04 02:48:10,053 INFO 	iter: 380, batch loss: 1.03578817844, batch acc: 0.593750
+2022-12-04 02:51:04,145 INFO 	Eval, eval loss: 1.00990593433, acc: 0.487805
+2022-12-04 02:57:40,330 INFO 	iter: 400, batch loss: 1.10035467148, batch acc: 0.593750
+2022-12-04 03:00:34,956 INFO 	Eval, eval loss: 0.987452089787, acc: 0.512195
+2022-12-04 03:07:07,764 INFO 	iter: 420, batch loss: 0.956754088402, batch acc: 0.500000
+2022-12-04 03:10:03,272 INFO 	Eval, eval loss: 0.968717813492, acc: 0.487805
+2022-12-04 03:16:26,941 INFO 	iter: 440, batch loss: 1.00553965569, batch acc: 0.437500
+2022-12-04 03:19:23,280 INFO 	Eval, eval loss: 0.934861421585, acc: 0.487805
+2022-12-04 03:25:45,078 INFO 	iter: 460, batch loss: 1.00278139114, batch acc: 0.531250
+2022-12-04 03:28:42,601 INFO 	Eval, eval loss: 0.913353443146, acc: 0.487805
+2022-12-04 03:30:17,714 INFO Epoch: loss: 1.048171, acc: 0.486089
+2022-12-04 03:30:17,715 INFO Epoch: 4/15 start
+2022-12-04 03:36:53,559 INFO 	iter: 480, batch loss: 0.96706199646, batch acc: 0.593750
+2022-12-04 03:39:51,540 INFO 	Eval, eval loss: 0.931827843189, acc: 0.487805
+2022-12-04 03:47:01,190 INFO 	iter: 500, batch loss: 0.878494024277, batch acc: 0.500000
+2022-12-04 03:50:00,243 INFO 	Eval, eval loss: 0.888743638992, acc: 0.487805
+2022-12-04 03:56:46,136 INFO 	iter: 520, batch loss: 0.88023352623, batch acc: 0.593750
+2022-12-04 03:59:46,124 INFO 	Eval, eval loss: 0.871390879154, acc: 0.487805
+2022-12-04 04:06:25,008 INFO 	iter: 540, batch loss: 0.855863213539, batch acc: 0.500000
+2022-12-04 04:09:26,057 INFO 	Eval, eval loss: 0.851998507977, acc: 0.487805
+2022-12-04 04:16:05,543 INFO 	iter: 560, batch loss: 0.91557097435, batch acc: 0.687500
+2022-12-04 04:19:09,069 INFO 	Eval, eval loss: 0.845159649849, acc: 0.487805
+2022-12-04 04:25:38,857 INFO 	iter: 580, batch loss: 0.919996738434, batch acc: 0.437500
+2022-12-04 04:28:41,966 INFO 	Eval, eval loss: 0.835818231106, acc: 0.487805
+2022-12-04 04:35:13,470 INFO 	iter: 600, batch loss: 0.923796951771, batch acc: 0.500000
+2022-12-04 04:38:17,421 INFO 	Eval, eval loss: 0.827696323395, acc: 0.487805
+2022-12-04 04:44:40,682 INFO 	iter: 620, batch loss: 0.84137827158, batch acc: 0.562500
+2022-12-04 04:47:46,185 INFO 	Eval, eval loss: 0.826438367367, acc: 0.487805
+2022-12-04 04:47:46,674 INFO Epoch: loss: 0.890253, acc: 0.517944
+2022-12-04 04:47:46,675 INFO Epoch: 5/15 start
+2022-12-04 04:56:12,454 INFO 	iter: 640, batch loss: 0.818197846413, batch acc: 0.625000
+2022-12-04 04:59:18,337 INFO 	Eval, eval loss: 0.812724411488, acc: 0.487805
+2022-12-04 05:06:25,113 INFO 	iter: 660, batch loss: 0.826532661915, batch acc: 0.625000
+2022-12-04 05:09:32,006 INFO 	Eval, eval loss: 0.809185504913, acc: 0.487805
+2022-12-04 05:16:15,987 INFO 	iter: 680, batch loss: 0.826531171799, batch acc: 0.625000
+2022-12-04 05:19:23,707 INFO 	Eval, eval loss: 0.801052093506, acc: 0.487805
+2022-12-04 05:26:06,077 INFO 	iter: 700, batch loss: 0.802259325981, batch acc: 0.437500
+2022-12-04 05:29:14,711 INFO 	Eval, eval loss: 0.798500359058, acc: 0.487805
+2022-12-04 05:35:52,489 INFO 	iter: 720, batch loss: 0.810740530491, batch acc: 0.468750
+2022-12-04 05:39:02,685 INFO 	Eval, eval loss: 0.789296388626, acc: 0.487805
+2022-12-04 05:45:35,126 INFO 	iter: 740, batch loss: 0.81760764122, batch acc: 0.468750
+2022-12-04 05:48:45,461 INFO 	Eval, eval loss: 0.786876738071, acc: 0.487805
+2022-12-04 05:55:16,601 INFO 	iter: 760, batch loss: 0.810915350914, batch acc: 0.562500
+2022-12-04 05:58:28,508 INFO 	Eval, eval loss: 0.785258233547, acc: 0.487805
+2022-12-04 06:03:18,258 INFO Epoch: loss: 0.824322, acc: 0.517137
+2022-12-04 06:03:18,259 INFO Epoch: 6/15 start
+2022-12-04 06:06:06,363 INFO 	iter: 780, batch loss: 0.776461899281, batch acc: 0.593750
+2022-12-04 06:09:18,425 INFO 	Eval, eval loss: 0.783495008945, acc: 0.487805
+2022-12-04 06:16:52,415 INFO 	iter: 800, batch loss: 0.786994457245, batch acc: 0.593750
+2022-12-04 06:20:05,329 INFO 	Eval, eval loss: 0.774252355099, acc: 0.487805
+2022-12-04 06:27:04,202 INFO 	iter: 820, batch loss: 0.792471647263, batch acc: 0.656250
+2022-12-04 06:30:18,221 INFO 	Eval, eval loss: 0.77415138483, acc: 0.487805
+2022-12-04 06:37:00,482 INFO 	iter: 840, batch loss: 0.764630198479, batch acc: 0.562500
+2022-12-04 06:40:15,746 INFO 	Eval, eval loss: 0.765772521496, acc: 0.487805
+2022-12-04 06:46:57,340 INFO 	iter: 860, batch loss: 0.788109242916, batch acc: 0.437500
+2022-12-04 06:50:13,268 INFO 	Eval, eval loss: 0.762756705284, acc: 0.487805
+2022-12-04 06:56:54,555 INFO 	iter: 880, batch loss: 0.76693046093, batch acc: 0.531250
+2022-12-04 07:00:11,647 INFO 	Eval, eval loss: 0.759514153004, acc: 0.487805
+2022-12-04 07:06:48,319 INFO 	iter: 900, batch loss: 0.826041281223, batch acc: 0.468750
+2022-12-04 07:10:05,526 INFO 	Eval, eval loss: 0.76427257061, acc: 0.487805
+2022-12-04 07:16:38,169 INFO 	iter: 920, batch loss: 0.809915184975, batch acc: 0.625000
+2022-12-04 07:19:56,574 INFO 	Eval, eval loss: 0.761472165585, acc: 0.487805
+2022-12-04 07:23:13,856 INFO Epoch: loss: 0.792913, acc: 0.517339
+2022-12-04 07:23:13,857 INFO Epoch: 7/15 start
+2022-12-04 07:28:02,431 INFO 	iter: 940, batch loss: 0.74911236763, batch acc: 0.625000
+2022-12-04 07:31:21,720 INFO 	Eval, eval loss: 0.759394526482, acc: 0.487805
+2022-12-04 07:38:42,464 INFO 	iter: 960, batch loss: 0.775821447372, batch acc: 0.468750
+2022-12-04 07:42:02,996 INFO 	Eval, eval loss: 0.752493739128, acc: 0.487805
+2022-12-04 07:48:59,357 INFO 	iter: 980, batch loss: 0.809201896191, batch acc: 0.468750
+2022-12-04 07:52:20,459 INFO 	Eval, eval loss: 0.751776576042, acc: 0.487805
+2022-12-04 07:59:07,515 INFO 	iter: 1000, batch loss: 0.811460614204, batch acc: 0.562500
+2022-12-04 08:02:30,079 INFO 	Eval, eval loss: 0.759187281132, acc: 0.487805
+2022-12-04 08:09:17,641 INFO 	iter: 1020, batch loss: 0.784318745136, batch acc: 0.375000
+2022-12-04 08:12:40,804 INFO 	Eval, eval loss: 0.756151437759, acc: 0.487805
+2022-12-04 08:19:21,931 INFO 	iter: 1040, batch loss: 0.843050956726, batch acc: 0.468750
+2022-12-04 08:22:45,511 INFO 	Eval, eval loss: 0.752960622311, acc: 0.487805
+2022-12-04 08:29:22,501 INFO 	iter: 1060, batch loss: 0.788830637932, batch acc: 0.437500
+2022-12-04 08:32:47,124 INFO 	Eval, eval loss: 0.751404821873, acc: 0.487805
+2022-12-04 08:39:19,302 INFO 	iter: 1080, batch loss: 0.776397585869, batch acc: 0.500000
+2022-12-04 08:42:44,983 INFO 	Eval, eval loss: 0.754444897175, acc: 0.487805
+2022-12-04 08:44:24,216 INFO Epoch: loss: 0.778887, acc: 0.517137
+2022-12-04 08:44:24,217 INFO Epoch: 8/15 start
+2022-12-04 08:51:11,463 INFO 	iter: 1100, batch loss: 0.746584773064, batch acc: 0.375000
+2022-12-04 08:54:38,181 INFO 	Eval, eval loss: 0.747935950756, acc: 0.487805
+2022-12-04 09:01:50,466 INFO 	iter: 1120, batch loss: 0.740119457245, batch acc: 0.500000
+2022-12-04 09:05:17,537 INFO 	Eval, eval loss: 0.755791604519, acc: 0.487805
+2022-12-04 09:12:14,027 INFO 	iter: 1140, batch loss: 0.756733059883, batch acc: 0.500000
+2022-12-04 09:15:42,538 INFO 	Eval, eval loss: 0.746617972851, acc: 0.487805
+2022-12-04 09:22:33,586 INFO 	iter: 1160, batch loss: 0.760844826698, batch acc: 0.562500
+2022-12-04 09:26:02,332 INFO 	Eval, eval loss: 0.740600645542, acc: 0.487805
+2022-12-04 09:32:52,715 INFO 	iter: 1180, batch loss: 0.745394229889, batch acc: 0.625000
+2022-12-04 09:36:22,916 INFO 	Eval, eval loss: 0.736496090889, acc: 0.487805
+2022-12-04 09:43:04,298 INFO 	iter: 1200, batch loss: 0.759350121021, batch acc: 0.531250
+2022-12-04 09:46:35,444 INFO 	Eval, eval loss: 0.736694693565, acc: 0.487805
+2022-12-04 09:53:14,936 INFO 	iter: 1220, batch loss: 0.772052645683, batch acc: 0.343750
+2022-12-04 09:56:46,631 INFO 	Eval, eval loss: 0.73571228981, acc: 0.487805
+2022-12-04 10:03:22,915 INFO 	iter: 1240, batch loss: 0.767523050308, batch acc: 0.593750
+2022-12-04 10:06:55,795 INFO 	Eval, eval loss: 0.735914766788, acc: 0.487805
+2022-12-04 10:06:56,431 INFO Epoch: loss: 0.764100, acc: 0.516935
+2022-12-04 10:06:56,432 INFO Epoch: 9/15 start
+2022-12-04 10:15:37,255 INFO 	iter: 1260, batch loss: 0.745608627796, batch acc: 0.531250
+2022-12-04 10:19:10,604 INFO 	Eval, eval loss: 0.736634194851, acc: 0.487805
+2022-12-04 10:26:19,734 INFO 	iter: 1280, batch loss: 0.709363460541, batch acc: 0.625000
+2022-12-04 10:29:54,233 INFO 	Eval, eval loss: 0.734502732754, acc: 0.487805
+2022-12-04 10:36:53,591 INFO 	iter: 1300, batch loss: 0.751988947392, batch acc: 0.531250
+2022-12-04 10:40:29,105 INFO 	Eval, eval loss: 0.733763098717, acc: 0.487805
+2022-12-04 10:47:18,368 INFO 	iter: 1320, batch loss: 0.710375070572, batch acc: 0.562500
+2022-12-04 10:50:54,789 INFO 	Eval, eval loss: 0.732857108116, acc: 0.487805
+2022-12-04 10:57:40,480 INFO 	iter: 1340, batch loss: 0.746847867966, batch acc: 0.531250
+2022-12-04 11:01:18,929 INFO 	Eval, eval loss: 0.731678426266, acc: 0.487805
+2022-12-04 11:08:02,681 INFO 	iter: 1360, batch loss: 0.784911870956, batch acc: 0.437500
+2022-12-04 11:11:41,022 INFO 	Eval, eval loss: 0.726707398891, acc: 0.487805
+2022-12-04 11:18:21,053 INFO 	iter: 1380, batch loss: 0.742379546165, batch acc: 0.468750
+2022-12-04 11:22:00,975 INFO 	Eval, eval loss: 0.734710335732, acc: 0.487805
+2022-12-04 11:27:00,675 INFO Epoch: loss: 0.754988, acc: 0.517540
+2022-12-04 11:27:00,676 INFO Epoch: 10/15 start
+2022-12-04 11:29:38,896 INFO 	iter: 1400, batch loss: 0.734886527061, batch acc: 0.593750
+2022-12-04 11:33:18,830 INFO 	Eval, eval loss: 0.731891393661, acc: 0.487805
+2022-12-04 11:41:18,502 INFO 	iter: 1420, batch loss: 0.737605452538, batch acc: 0.406250
+2022-12-04 11:44:59,600 INFO 	Eval, eval loss: 0.728988945484, acc: 0.487805
+2022-12-04 11:52:03,339 INFO 	iter: 1440, batch loss: 0.769799828529, batch acc: 0.531250
+2022-12-04 11:55:45,721 INFO 	Eval, eval loss: 0.728495419025, acc: 0.487805
+2022-12-04 12:02:45,081 INFO 	iter: 1460, batch loss: 0.749161839485, batch acc: 0.500000
+2022-12-04 12:06:28,540 INFO 	Eval, eval loss: 0.727895438671, acc: 0.487805
+2022-12-04 12:13:24,378 INFO 	iter: 1480, batch loss: 0.72552895546, batch acc: 0.531250
+2022-12-04 12:17:08,395 INFO 	Eval, eval loss: 0.726478159428, acc: 0.487805
+2022-12-04 12:24:00,619 INFO 	iter: 1500, batch loss: 0.776588201523, batch acc: 0.343750
+2022-12-04 12:27:46,058 INFO 	Eval, eval loss: 0.725521981716, acc: 0.487805
+2022-12-04 12:34:29,959 INFO 	iter: 1520, batch loss: 0.753895401955, batch acc: 0.625000
+2022-12-04 12:38:15,595 INFO 	Eval, eval loss: 0.726390838623, acc: 0.487805
+2022-12-04 12:44:59,971 INFO 	iter: 1540, batch loss: 0.763307213783, batch acc: 0.531250
+2022-12-04 12:48:47,058 INFO 	Eval, eval loss: 0.732003688812, acc: 0.487805
+2022-12-04 12:52:09,562 INFO Epoch: loss: 0.749138, acc: 0.517540
+2022-12-04 12:52:09,563 INFO Epoch: 11/15 start
+2022-12-04 12:57:00,986 INFO 	iter: 1560, batch loss: 0.736085057259, batch acc: 0.531250
+2022-12-04 13:00:49,782 INFO 	Eval, eval loss: 0.727480649948, acc: 0.487805
+2022-12-04 13:08:24,535 INFO 	iter: 1580, batch loss: 0.747856676579, batch acc: 0.437500
+2022-12-04 13:12:13,232 INFO 	Eval, eval loss: 0.724806725979, acc: 0.487805
+2022-12-04 13:19:21,369 INFO 	iter: 1600, batch loss: 0.731535315514, batch acc: 0.562500
+2022-12-04 13:23:11,993 INFO 	Eval, eval loss: 0.723253965378, acc: 0.487805
+2022-12-04 13:30:10,043 INFO 	iter: 1620, batch loss: 0.744036197662, batch acc: 0.500000
+2022-12-04 13:34:01,233 INFO 	Eval, eval loss: 0.725357890129, acc: 0.487805
+2022-12-04 13:40:54,803 INFO 	iter: 1640, batch loss: 0.739439547062, batch acc: 0.531250
+2022-12-04 13:44:46,277 INFO 	Eval, eval loss: 0.723418772221, acc: 0.487805
+2022-12-04 13:51:37,580 INFO 	iter: 1660, batch loss: 0.763567447662, batch acc: 0.468750
+2022-12-04 13:55:30,159 INFO 	Eval, eval loss: 0.725672841072, acc: 0.487805
+2022-12-04 14:02:18,010 INFO 	iter: 1680, batch loss: 0.76563346386, batch acc: 0.312500
+2022-12-04 14:06:10,846 INFO 	Eval, eval loss: 0.724435865879, acc: 0.487805
+2022-12-04 14:12:57,465 INFO 	iter: 1700, batch loss: 0.755781650543, batch acc: 0.406250
+2022-12-04 14:16:52,149 INFO 	Eval, eval loss: 0.729485452175, acc: 0.487805
+2022-12-04 14:18:34,003 INFO Epoch: loss: 0.747233, acc: 0.517137
+2022-12-04 14:18:34,004 INFO Epoch: 12/15 start
+2022-12-04 14:25:28,280 INFO 	iter: 1720, batch loss: 0.734969496727, batch acc: 0.437500
+2022-12-04 14:29:24,216 INFO 	Eval, eval loss: 0.726657152176, acc: 0.487805
+2022-12-04 14:36:49,734 INFO 	iter: 1740, batch loss: 0.724504947662, batch acc: 0.562500
+2022-12-04 14:40:46,474 INFO 	Eval, eval loss: 0.72369658947, acc: 0.487805
+2022-12-04 14:47:52,274 INFO 	iter: 1760, batch loss: 0.756990611553, batch acc: 0.593750
+2022-12-04 14:51:49,797 INFO 	Eval, eval loss: 0.723301172256, acc: 0.487805
+2022-12-04 14:58:48,711 INFO 	iter: 1780, batch loss: 0.735113799572, batch acc: 0.468750
+2022-12-04 15:02:46,102 INFO 	Eval, eval loss: 0.722247302532, acc: 0.487805
+2022-12-04 15:09:44,127 INFO 	iter: 1800, batch loss: 0.774808824062, batch acc: 0.531250
+2022-12-04 15:13:42,496 INFO 	Eval, eval loss: 0.721255838871, acc: 0.487805
+2022-12-04 15:20:36,576 INFO 	iter: 1820, batch loss: 0.722639679909, batch acc: 0.437500
+2022-12-04 15:24:35,849 INFO 	Eval, eval loss: 0.722997784615, acc: 0.487805
+2022-12-04 15:31:25,467 INFO 	iter: 1840, batch loss: 0.768985152245, batch acc: 0.437500
+2022-12-04 15:35:25,910 INFO 	Eval, eval loss: 0.725132763386, acc: 0.487805
+2022-12-04 15:42:13,122 INFO 	iter: 1860, batch loss: 0.745558917522, batch acc: 0.562500
+2022-12-04 15:46:14,421 INFO 	Eval, eval loss: 0.721811830997, acc: 0.487805
+2022-12-04 15:46:15,020 INFO Epoch: loss: 0.743672, acc: 0.518548
+2022-12-04 15:46:15,020 INFO Epoch: 13/15 start
+2022-12-04 15:55:04,800 INFO 	iter: 1880, batch loss: 0.751937627792, batch acc: 0.500000
+2022-12-04 15:59:07,067 INFO 	Eval, eval loss: 0.720790982246, acc: 0.487805
+2022-12-04 16:06:31,138 INFO 	iter: 1900, batch loss: 0.732045531273, batch acc: 0.562500
+2022-12-04 16:10:34,002 INFO 	Eval, eval loss: 0.722001314163, acc: 0.487805
+2022-12-04 16:17:38,523 INFO 	iter: 1920, batch loss: 0.737048685551, batch acc: 0.468750
+2022-12-04 16:21:42,635 INFO 	Eval, eval loss: 0.722307562828, acc: 0.487805
+2022-12-04 16:28:43,486 INFO 	iter: 1940, batch loss: 0.732007741928, batch acc: 0.562500
+2022-12-04 16:32:49,694 INFO 	Eval, eval loss: 0.720507204533, acc: 0.487805
+2022-12-04 16:39:47,047 INFO 	iter: 1960, batch loss: 0.733289301395, batch acc: 0.625000
+2022-12-04 16:43:52,748 INFO 	Eval, eval loss: 0.720111548901, acc: 0.487805
+2022-12-04 16:50:48,017 INFO 	iter: 1980, batch loss: 0.79462492466, batch acc: 0.500000
+2022-12-04 16:54:54,445 INFO 	Eval, eval loss: 0.72061342001, acc: 0.487805
+2022-12-04 17:01:47,474 INFO 	iter: 2000, batch loss: 0.762349128723, batch acc: 0.468750
+2022-12-04 17:05:54,767 INFO 	Eval, eval loss: 0.721275806427, acc: 0.487805
+2022-12-04 17:11:02,172 INFO Epoch: loss: 0.742073, acc: 0.517137
+2022-12-04 17:11:02,173 INFO Epoch: 14/15 start
+2022-12-04 17:13:48,307 INFO 	iter: 2020, batch loss: 0.702646255493, batch acc: 0.625000
+2022-12-04 17:17:56,716 INFO 	Eval, eval loss: 0.724774301052, acc: 0.487805
+2022-12-04 17:25:55,367 INFO 	iter: 2040, batch loss: 0.744765758514, batch acc: 0.593750
+2022-12-04 17:30:03,984 INFO 	Eval, eval loss: 0.721351265907, acc: 0.487805
+2022-12-04 17:37:24,229 INFO 	iter: 2060, batch loss: 0.756142497063, batch acc: 0.593750
+2022-12-04 17:41:34,151 INFO 	Eval, eval loss: 0.729154884815, acc: 0.487805
+2022-12-04 17:48:43,464 INFO 	iter: 2080, batch loss: 0.741823375225, batch acc: 0.500000
+2022-12-04 17:52:55,225 INFO 	Eval, eval loss: 0.726354837418, acc: 0.487805
+2022-12-04 17:59:59,597 INFO 	iter: 2100, batch loss: 0.71057754755, batch acc: 0.593750
+2022-12-04 18:04:11,618 INFO 	Eval, eval loss: 0.720458209515, acc: 0.487805
+2022-12-04 18:11:14,276 INFO 	iter: 2120, batch loss: 0.711503148079, batch acc: 0.687500
+2022-12-04 18:15:27,692 INFO 	Eval, eval loss: 0.720917999744, acc: 0.487805
+2022-12-04 18:22:22,897 INFO 	iter: 2140, batch loss: 0.750994086266, batch acc: 0.531250
+2022-12-04 18:26:37,208 INFO 	Eval, eval loss: 0.726324737072, acc: 0.487805
+2022-12-04 18:33:32,487 INFO 	iter: 2160, batch loss: 0.803575694561, batch acc: 0.562500
+2022-12-04 18:37:47,820 INFO 	Eval, eval loss: 0.731148660183, acc: 0.487805
+2022-12-04 18:41:14,818 INFO Epoch: loss: 0.746247, acc: 0.517540
+2022-12-04 18:41:14,819 INFO Epoch: 15/15 start
+2022-12-04 18:46:08,203 INFO 	iter: 2180, batch loss: 0.72696262598, batch acc: 0.500000
+2022-12-04 18:50:24,799 INFO 	Eval, eval loss: 0.731945157051, acc: 0.487805
+2022-12-04 18:58:08,801 INFO 	iter: 2200, batch loss: 0.839852452278, batch acc: 0.531250
+2022-12-04 19:02:25,751 INFO 	Eval, eval loss: 0.739900171757, acc: 0.487805
+2022-12-04 19:09:42,292 INFO 	iter: 2220, batch loss: 0.806356489658, batch acc: 0.312500
+2022-12-04 19:13:59,193 INFO 	Eval, eval loss: 0.736831724644, acc: 0.487805
+2022-12-04 19:21:08,804 INFO 	iter: 2240, batch loss: 0.746135950089, batch acc: 0.500000
+2022-12-04 19:25:27,137 INFO 	Eval, eval loss: 0.723394155502, acc: 0.487805
+2022-12-04 19:32:33,374 INFO 	iter: 2260, batch loss: 0.717011809349, batch acc: 0.406250
+2022-12-04 19:36:53,402 INFO 	Eval, eval loss: 0.72433423996, acc: 0.487805
+2022-12-04 19:43:56,457 INFO 	iter: 2280, batch loss: 0.7408233881, batch acc: 0.562500
+2022-12-04 19:48:16,516 INFO 	Eval, eval loss: 0.722890377045, acc: 0.487805
+2022-12-04 19:55:14,429 INFO 	iter: 2300, batch loss: 0.738393545151, batch acc: 0.468750
+2022-12-04 19:59:34,985 INFO 	Eval, eval loss: 0.72265201807, acc: 0.487805
+2022-12-04 20:06:19,817 INFO 	iter: 2320, batch loss: 0.754128217697, batch acc: 0.375000
+2022-12-04 20:10:35,355 INFO 	Eval, eval loss: 0.725330412388, acc: 0.487805
+2022-12-04 20:12:16,577 INFO Epoch: loss: 0.750495, acc: 0.517541
+2022-12-04 20:12:17,444 INFO Model: all_days-5.msgs-30-words-40_word_embed-glove.vmd_in-hedge_alpha-0.5.anneal-0.005.rec-zh_batch-32.opt-adam.lr-0.001-drop-0.3-cell-gru, session restored!
+2022-12-04 20:18:37,991 INFO 	Eval, eval loss: 0.731089174747, acc: 0.574405
